@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.13)
+cmake_minimum_required(VERSION 3.30)
 
 # Set build type to Debug if not specified
 if(NOT CMAKE_BUILD_TYPE)
