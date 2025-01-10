@@ -17,7 +17,7 @@ endif()
 
 
 # Find CppUTest
-set(CPPUTEST_USE_GCOV ON CACHE BOOL "Enable code coverage for CppUTest")
+##set(CPPUTEST_USE_GCOV ON CACHE BOOL "Enable code coverage for CppUTest")
 find_package(CppUTest REQUIRED)
 
 # Test files
