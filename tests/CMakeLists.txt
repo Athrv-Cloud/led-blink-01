@@ -18,8 +18,8 @@ endif()
 
 # Find CppUTest
 set(CPPUTEST_USE_GCOV ON CACHE BOOL "Enable code coverage for CppUTest")
-find_package(CppUTest REQUIRED)
-
+##find_package(CppUTest REQUIRED)
+add_subdirectory(/home/ubuntu/cpputest-4.0 cpputest_build)
 # Test files
 set(TEST_SOURCES
     test_main.cpp        # Add more test files as needed
