@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.30)
 project(LedBlinkTests)
 
-set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+##set(CMAKE_EXPORT_COMPILE_COMMANDS ON)   if using command then dont enable this
 
 # Include directories for STM32 and CppUTest
 include_directories(src)
